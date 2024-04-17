@@ -14,7 +14,7 @@ public class catracer : MonoBehaviour
    
     void Update()
     {
-        transform.Translate(new Vector3(0, 0, 1) * Time.deltaTime * speed);
+        transform.Translate( Vector3.forward* Time.deltaTime * speed);
         
     }
 }
